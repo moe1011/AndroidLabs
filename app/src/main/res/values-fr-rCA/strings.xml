@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello_world">Bonjour le monde</string>
-    <string name="button_text">Je suis un bouton!</string>
+    <string name="toast_message">L\'étiquette a été mise à jour.</string>
+    <string name="text_view_text">J\'aime Android</string>
+    <string name="switch_text">Allumer / éteindre</string>
+    <string name="button_text">APPUYEZ SUR MOI</string>
+    <string name="editText_hint_text">J\'aime Android</string>
+    <string name="checkBox_text">Regarde ça!</string>
+    <string name="snackbar_text_on">La case est cochée</string>
+    <string name="snackbar_text_off">La case à cocher est désactivée</string>
+    <string name="snackbar_text_undo">annuler</string>
 </resources>
