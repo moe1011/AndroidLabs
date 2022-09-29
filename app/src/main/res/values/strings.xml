@@ -1,11 +1,7 @@
 <resources>
-    <string name="text_view_text">I love Android</string>
-    <string name="toast_message">Label has been updated.</string>
-    <string name="switch_text">Switch on/off</string>
-    <string name="button_text">PRESS ME</string>
-    <string name="editText_hint_text">I love Android</string>
-    <string name="checkBox_text">Check this out!</string>
-    <string name="snackbar_text_on">Checkbox is on</string>
-    <string name="snackbar_text_off">Checkbox is off</string>
-    <string name="snackbar_text_undo">Undo</string>
+    <string name="right_name_btn">THANK YOU</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="wrong_name_btn">DON\'T CALL ME THAT</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="next_btn">NEXT</string>
 </resources>
