@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.androidlabs">
+    package="com.example.androidlabs" >
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/right_name_btn"
+        android:label="CST2335 Lab 4"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabs"
-        tools:targetApi="31">
-        <activity
-            android:name=".NameActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+        tools:targetApi="31" >
+        <activity android:name=".MainActivity"
             android:exported="true">
+
+            <!--Inside this activity you should be having below code for
+                intent filter which will check the default activity-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

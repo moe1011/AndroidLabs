@@ -1,7 +1,7 @@
 <resources>
-    <string name="right_name_btn">THANK YOU</string>
-    <string name="welcome_text">Welcome</string>
-    <string name="wrong_name_btn">DON\'T CALL ME THAT</string>
-    <string name="enter_name">Enter your name</string>
-    <string name="next_btn">NEXT</string>
+    <string name="input_hint">Type Here</string>
+    <string name="urgent_text">Urgent</string>
+    <string name="add_btn">Add</string>
+    <string name="alert_title">Delete Task</string>
+    <string name="alert_message">Do you want to delete this?\nThe selected row is:</string>
 </resources>

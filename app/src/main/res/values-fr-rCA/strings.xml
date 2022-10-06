@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_text">Bienvenu</string>
-    <string name="right_name_btn">MERCI</string>
-    <string name="wrong_name_btn">NE M\'APPELLE PAS ÇA</string>
-    <string name="enter_name">Entrez votre nom</string>
-    <string name="next_btn">SUIVANT</string>
+    <string name="input_hint">Écrivez ici</string>
+    <string name="urgent_text">Urgente</string>
+    <string name="add_btn">Ajouter</string>
+    <string name="alert_message">Voulez-vous supprimer ceci ?\nLa ligne sélectionnée est :</string>
+    <string name="alert_title">Supprimer la tâche</string>
 </resources>
