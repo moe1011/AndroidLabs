@@ -2,29 +2,36 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.androidlabs" >
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.software.leanback" android:required="true"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="CST2335 Lab 5"
+        android:label="CST2335 Lab 6"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabs"
-        tools:targetApi="31" >
-        <activity android:name=".MainActivity"
-            android:exported="true">
+        tools:targetApi="31">
 
-            <!--Inside this activity you should be having below code for
-                intent filter which will check the default activity-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+
+            <!--
+                Inside this activity you should be having below code for
+                intent filter which will check the default activity
+            -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
