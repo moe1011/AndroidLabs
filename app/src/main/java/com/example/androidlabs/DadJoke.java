@@ -3,47 +3,28 @@ package com.example.androidlabs;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-
 import com.google.android.material.navigation.NavigationView;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class DadJoke extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     static boolean active = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        active = true;
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dad_joke);
+
         Toolbar myToolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
 
@@ -81,14 +62,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         {
             //what to do when the menu item is selected:
             case R.id.home:
-                if (active = false) {
-                    myIntent = new Intent(this, MainActivity.class);
-                    this.startActivity(myIntent);
-                }
+                myIntent = new Intent(this, MainActivity.class);
+                this.startActivity(myIntent);
+
                 break;
             case R.id.dadjoke:
-                myIntent = new Intent(this, DadJoke.class);
-                this.startActivity(myIntent);
+                if(active = false) {
+                    myIntent = new Intent(this, DadJoke.class);
+                    this.startActivity(myIntent);
+                }
                 break;
             case R.id.exit:
                 finishAffinity();
@@ -118,5 +100,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
         return super.onOptionsItemSelected(item);
     }
+
+
+
 
 }

@@ -10,13 +10,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="CST2335 Lab 7"
+        android:label="CST2335 Lab 8"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabs"
         tools:targetApi="31">
         <activity
-            android:name=".EmptyActivity"
+            android:name=".DadJoke"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

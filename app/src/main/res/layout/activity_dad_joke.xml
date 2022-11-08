@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:backgroundTint="#FFFFFF"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".DadJoke">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -16,22 +14,34 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
+
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:openDrawer="start">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"/>
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/joke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What does a highlighter say when it answers the phone? Yello!!"
+                android:textSize="20dp" />
+        </LinearLayout>
+
         <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
-            app:menu="@menu/drawer"
-            android:id="@+id/nav_view"/>
+            app:menu="@menu/drawer" />
+
     </androidx.drawerlayout.widget.DrawerLayout>
 
 </LinearLayout>

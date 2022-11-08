@@ -4,15 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout-sw720dp/activity_main.xml" value="0.182648401826484" />
+        <entry key="app/src/main/res/layout/activity_dad_joke.xml" value="0.2222222222222222" />
+        <entry key="app/src/main/res/layout/activity_drawer.xml" value="0.12445030782761654" />
         <entry key="app/src/main/res/layout/activity_empty.xml" value="0.12445030782761654" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2222222222222222" />
         <entry key="app/src/main/res/layout/activity_main_constraint.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main_grid.xml" value="0.19756927490234377" />
         <entry key="app/src/main/res/layout/activity_main_linear.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_name.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_details.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/header_layout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/row_layout.xml" value="0.20652173913043478" />
         <entry key="app/src/main/res/layout/todo_layout.xml" value="0.25495495495495496" />
+        <entry key="app/src/main/res/menu/drawer.xml" value="0.19907407407407407" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.25495495495495496" />
       </map>
     </option>
   </component>
