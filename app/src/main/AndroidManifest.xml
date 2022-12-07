@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.androidlabs">
+    package="com.example.androidlabs" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,18 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabs"
-        tools:targetApi="31">
-        <activity
-            android:name=".DadJoke"
-            android:exported="false" />
+        tools:targetApi="31" >
+
         <activity
             android:name=".MainActivity"
+            android:label="MainActivity"
             android:exported="true">
-
-            <!--
-                Inside this activity you should be having below code for
-                intent filter which will check the default activity
-            -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
